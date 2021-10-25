@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="425.0" prefWidth="738.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tudien2.TranslateController">
+   <children>
+      <ImageView fitHeight="445.0" fitWidth="776.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/4525110.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="word_target" alignment="TOP_LEFT" layoutX="17.0" layoutY="138.0" prefHeight="142.0" prefWidth="298.0" />
+      <TextArea fx:id="word_translated" layoutX="433.0" layoutY="136.0" prefHeight="142.0" prefWidth="271.0" />
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="281.0" layoutY="245.0" onMouseClicked="#speak" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/images__2_-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="66.0" fitWidth="62.0" layoutX="339.0" layoutY="158.0" onMouseClicked="#translate" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/tải_xuống-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="323.0" layoutY="227.0" onMouseClicked="#translate" prefHeight="28.0" prefWidth="110.0" text="TRASNLATE" textFill="#cf9419">
+         <font>
+            <Font name="Buxton Sketch" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="56.0" fitWidth="106.0" layoutX="14.0" layoutY="363.0" onMouseClicked="#back" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/images-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="113.0" fitWidth="171.0" layoutX="534.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/khai-niem-Google-Translate-removebg-preview.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
